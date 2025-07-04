@@ -1,4 +1,5 @@
 # Code repository for the AnchoRNA publication
+[![DOI](https://zenodo.org/badge/1013792670.svg)](https://doi.org/10.5281/zenodo.15807300)
 
 This repository contains the source code for the reproduction of results and figures of the following publication:
 
