@@ -7,9 +7,11 @@ AnchoRNA: Full virus genome alignments through conserved anchor regions,
 doi:[10.1101/2025.01.30.635689](https://doi.org/10.1101/2025.01.30.635689)
 [[pdf](https://www.biorxiv.org/content/10.1101/2025.01.30.635689.full.pdf)]
 
+It also includes all the data needed to run the scripts, as well as the expected output files including figures.
+
 ### Create a dedicated conda environment
 
-We also report the versions of the relevant packages.
+We report the versions of the relevant packages.
 
 ```sh
 conda create -n anchorna_paper -c conda-forge -c bioconda python==3.12 mafft==7.526 locarna=2.0
@@ -19,10 +21,11 @@ pip install rnajena-sugar==0.8 anchorna==2.0
 
 After creating the environment, you can run all of the sections below, or just some of them.
 Files in this repository will be recreated, except for these files:
-The hand-curated alignment file `pesti_hand_curated_55seqs_raw.stk`,
-the sequence IDs for the comparison `ids_50.txt`,
-the IDs of the sequences shown in figure 5 `ids_24.txt`,
-and the Python and BASH scripts.
+
+* The hand-curated alignment file `pesti_hand_curated_55seqs_raw.stk`,
+* the sequence IDs for the comparison `ids_50.txt`,
+* the IDs of the sequences shown in figure 5 `ids_24.txt`,
+* and the Python and BASH scripts.
 
 ### Search anchors
 
@@ -76,15 +79,15 @@ To log the output you can also run the script `bash run_mafft.sh 2&> run_mafft_l
 
 ### Create Dialign alignments using the server at https://dialign.gobics.de/
 
-* Use Dialign to create pesti_dialign_uncorrected.aln
-* Use CHAOS+Dialign to create pesti_chaos+dialign_uncorrected.aln
+* Use Dialign to create `pesti_dialign_uncorrected.aln`
+* Use CHAOS+Dialign to create `pesti_chaos+dialign_uncorrected.aln`
 * Create anchor file for Dialign
   ```sh
   anchorna export "anchors50.gff|13,14,15,40,41,42" -m nt --fmt dialign --fname pesti.gff -o anchors4dialign.txt
   ```
 * Use Anchored Dialign (AnchoRNA+Dialign) to create `pesti_anchorna+dialign_uncorrected.aln`
 
-### Create Locarna alignments with LocARNA 2.0.1.
+### Create LocARNA alignments with version v2.0.1.
 
 ```sh
 echo Vanilla LocARNA
