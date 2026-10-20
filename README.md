@@ -38,7 +38,7 @@ cd comparison
 anchorna create --tutorial
 ```
 
-Now we  the `run 01_prepare.py` script to create the files with 50 out of 55 sequences.
+Now we run the `run 01_prepare.py` script to create the files with 50 out of 55 sequences.
 
 ```sh
 cd ..; python 01_prepare.py; cd comparison
