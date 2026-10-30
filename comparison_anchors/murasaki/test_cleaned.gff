@@ -1,0 +1,404 @@
+##gff-version 3
+#AnchoRNA anchor file
+# written with AnchoRNA v2.0.1-dev
+#no_cds
+#offset AF099102 None
+#offset AY775178 None
+#offset AY805221 None
+#offset GU233732 None
+#offset HG426490 None
+#offset KC533775 None
+#offset KC853440 None
+#offset KP343640 None
+#offset KT875135 None
+#offset KT951841 None
+#offset KX577637 None
+#offset M96687 None
+#offset MF102261 None
+#offset MG387218 None
+#offset MH221025 None
+#offset MH231152 None
+#offset MH806436 None
+#offset MK216749 None
+#offset MN099165 None
+#offset MW054939 None
+#offset MZ664274 None
+#offset NC_001461 None
+#offset NC_002657 None
+#offset NC_003678 None
+#offset NC_003679 None
+#offset NC_012812 None
+#offset NC_018713 None
+#offset NC_023176 None
+#offset NC_024018 None
+#offset NC_025677 None
+#offset NC_030653 None
+#offset NC_035432 None
+#offset NC_038912 None
+#offset NC_038964 None
+#offset NC_039237 None
+#offset NC_076029 None
+#offset NC_076032 None
+#offset NC_077000 None
+#offset NC_077001 None
+#offset NC_077015 None
+#offset NC_077023 None
+#offset NC_077024 None
+#offset NC_077026 None
+#offset OM030319 None
+#offset OM030320 None
+#offset OM817567 None
+#offset ON024093 None
+#offset ON024108 None
+#offset ON165517 None
+#offset OU592965 None
+AF099102	anchorna	anchor	1363	1422	120.0	+	.	word=;median_score=1.0;Name=A0
+AY775178	anchorna	fluke	1364	1423	120.0	+	.	word=;median_score=1.0;Name=A0_AY775178
+AY805221	anchorna	fluke	1365	1424	120.0	+	.	word=;median_score=1.0;Name=A0_AY805221
+GU233732	anchorna	fluke	1364	1423	120.0	+	.	word=;median_score=1.0;Name=A0_GU233732
+HG426490	anchorna	fluke	1379	1438	120.0	+	.	word=;median_score=1.0;Name=A0_HG426490
+KC533775	anchorna	fluke	1364	1423	120.0	+	.	word=;median_score=1.0;Name=A0_KC533775
+KC853440	anchorna	fluke	1384	1443	120.0	+	.	word=;median_score=1.0;Name=A0_KC853440
+KP343640	anchorna	fluke	1363	1422	120.0	+	.	word=;median_score=1.0;Name=A0_KP343640
+KT875135	anchorna	fluke	1000	1059	120.0	+	.	word=;median_score=1.0;Name=A0_KT875135
+KT951841	anchorna	fluke	1373	1432	120.0	+	.	word=;median_score=1.0;Name=A0_KT951841
+KX577637	anchorna	fluke	1376	1435	120.0	+	.	word=;median_score=1.0;Name=A0_KX577637
+M96687	anchorna	fluke	1383	1442	120.0	+	.	word=;median_score=1.0;Name=A0_M96687
+MF102261	anchorna	fluke	1371	1430	120.0	+	.	word=;median_score=1.0;Name=A0_MF102261
+MG387218	anchorna	fluke	1363	1422	120.0	+	.	word=;median_score=1.0;Name=A0_MG387218
+MH221025	anchorna	fluke	1103	1162	120.0	+	.	word=;median_score=1.0;Name=A0_MH221025
+MH231152	anchorna	fluke	1356	1415	120.0	+	.	word=;median_score=1.0;Name=A0_MH231152
+MH806436	anchorna	fluke	1371	1430	120.0	+	.	word=;median_score=1.0;Name=A0_MH806436
+MK216749	anchorna	fluke	1445	1504	120.0	+	.	word=;median_score=1.0;Name=A0_MK216749
+MN099165	anchorna	fluke	1436	1495	120.0	+	.	word=;median_score=1.0;Name=A0_MN099165
+MW054939	anchorna	fluke	1350	1409	120.0	+	.	word=;median_score=1.0;Name=A0_MW054939
+MZ664274	anchorna	fluke	1365	1424	120.0	+	.	word=;median_score=1.0;Name=A0_MZ664274
+NC_001461	anchorna	fluke	1385	1444	120.0	+	.	word=;median_score=1.0;Name=A0_NC_001461
+NC_002657	anchorna	fluke	1364	1423	120.0	+	.	word=;median_score=1.0;Name=A0_NC_002657
+NC_003678	anchorna	fluke	1370	1429	120.0	+	.	word=;median_score=1.0;Name=A0_NC_003678
+NC_003679	anchorna	fluke	1366	1425	120.0	+	.	word=;median_score=1.0;Name=A0_NC_003679
+NC_012812	anchorna	fluke	1380	1439	120.0	+	.	word=;median_score=1.0;Name=A0_NC_012812
+NC_018713	anchorna	fluke	1371	1430	120.0	+	.	word=;median_score=1.0;Name=A0_NC_018713
+NC_023176	anchorna	fluke	1420	1479	120.0	+	.	word=;median_score=1.0;Name=A0_NC_023176
+NC_024018	anchorna	fluke	1354	1413	120.0	+	.	word=;median_score=1.0;Name=A0_NC_024018
+NC_025677	anchorna	fluke	1807	1866	120.0	+	.	word=;median_score=1.0;Name=A0_NC_025677
+NC_030653	anchorna	fluke	1060	1119	120.0	+	.	word=;median_score=1.0;Name=A0_NC_030653
+NC_035432	anchorna	fluke	1423	1482	120.0	+	.	word=;median_score=1.0;Name=A0_NC_035432
+NC_038912	anchorna	fluke	1364	1423	120.0	+	.	word=;median_score=1.0;Name=A0_NC_038912
+NC_038964	anchorna	fluke	1183	1242	120.0	+	.	word=;median_score=1.0;Name=A0_NC_038964
+NC_039237	anchorna	fluke	1385	1444	120.0	+	.	word=;median_score=1.0;Name=A0_NC_039237
+NC_076029	anchorna	fluke	1385	1444	120.0	+	.	word=;median_score=1.0;Name=A0_NC_076029
+NC_076032	anchorna	fluke	1385	1444	120.0	+	.	word=;median_score=1.0;Name=A0_NC_076032
+NC_077000	anchorna	fluke	1746	1805	120.0	+	.	word=;median_score=1.0;Name=A0_NC_077000
+NC_077001	anchorna	fluke	1822	1881	120.0	+	.	word=;median_score=1.0;Name=A0_NC_077001
+NC_077015	anchorna	fluke	1454	1513	120.0	+	.	word=;median_score=1.0;Name=A0_NC_077015
+NC_077023	anchorna	fluke	1342	1401	120.0	+	.	word=;median_score=1.0;Name=A0_NC_077023
+NC_077024	anchorna	fluke	1373	1432	120.0	+	.	word=;median_score=1.0;Name=A0_NC_077024
+NC_077026	anchorna	fluke	923	982	120.0	+	.	word=;median_score=1.0;Name=A0_NC_077026
+OM030319	anchorna	fluke	1041	1100	120.0	+	.	word=;median_score=1.0;Name=A0_OM030319
+OM030320	anchorna	fluke	1113	1172	120.0	+	.	word=;median_score=1.0;Name=A0_OM030320
+OM817567	anchorna	fluke	1303	1362	120.0	+	.	word=;median_score=1.0;Name=A0_OM817567
+ON024093	anchorna	fluke	1320	1379	120.0	+	.	word=;median_score=1.0;Name=A0_ON024093
+ON024108	anchorna	fluke	1318	1377	120.0	+	.	word=;median_score=1.0;Name=A0_ON024108
+ON165517	anchorna	fluke	1282	1341	120.0	+	.	word=;median_score=1.0;Name=A0_ON165517
+OU592965	anchorna	fluke	1421	1480	120.0	+	.	word=;median_score=1.0;Name=A0_OU592965
+AF099102	anchorna	anchor	5821	5835	30.0	+	.	word=;median_score=1.0;Name=A1
+AY775178	anchorna	fluke	5822	5836	30.0	+	.	word=;median_score=1.0;Name=A1_AY775178
+AY805221	anchorna	fluke	5823	5837	30.0	+	.	word=;median_score=1.0;Name=A1_AY805221
+GU233732	anchorna	fluke	5822	5836	30.0	+	.	word=;median_score=1.0;Name=A1_GU233732
+HG426490	anchorna	fluke	6044	6058	30.0	+	.	word=;median_score=1.0;Name=A1_HG426490
+KC533775	anchorna	fluke	5822	5836	30.0	+	.	word=;median_score=1.0;Name=A1_KC533775
+KC853440	anchorna	fluke	5833	5847	30.0	+	.	word=;median_score=1.0;Name=A1_KC853440
+KP343640	anchorna	fluke	5821	5835	30.0	+	.	word=;median_score=1.0;Name=A1_KP343640
+KT875135	anchorna	fluke	5443	5457	30.0	+	.	word=;median_score=1.0;Name=A1_KT875135
+KT951841	anchorna	fluke	5822	5836	30.0	+	.	word=;median_score=1.0;Name=A1_KT951841
+KX577637	anchorna	fluke	5825	5839	30.0	+	.	word=;median_score=1.0;Name=A1_KX577637
+M96687	anchorna	fluke	6063	6077	30.0	+	.	word=;median_score=1.0;Name=A1_M96687
+MF102261	anchorna	fluke	5817	5831	30.0	+	.	word=;median_score=1.0;Name=A1_MF102261
+MG387218	anchorna	fluke	5821	5835	30.0	+	.	word=;median_score=1.0;Name=A1_MG387218
+MH221025	anchorna	fluke	4682	4696	30.0	+	.	word=;median_score=1.0;Name=A1_MH221025
+MH231152	anchorna	fluke	5799	5813	30.0	+	.	word=;median_score=1.0;Name=A1_MH231152
+MH806436	anchorna	fluke	6174	6188	30.0	+	.	word=;median_score=1.0;Name=A1_MH806436
+MK216749	anchorna	fluke	5024	5038	30.0	+	.	word=;median_score=1.0;Name=A1_MK216749
+MN099165	anchorna	fluke	5015	5029	30.0	+	.	word=;median_score=1.0;Name=A1_MN099165
+MW054939	anchorna	fluke	5799	5813	30.0	+	.	word=;median_score=1.0;Name=A1_MW054939
+MZ664274	anchorna	fluke	5811	5825	30.0	+	.	word=;median_score=1.0;Name=A1_MZ664274
+NC_001461	anchorna	fluke	6104	6118	30.0	+	.	word=;median_score=1.0;Name=A1_NC_001461
+NC_002657	anchorna	fluke	5822	5836	30.0	+	.	word=;median_score=1.0;Name=A1_NC_002657
+NC_003678	anchorna	fluke	6101	6115	30.0	+	.	word=;median_score=1.0;Name=A1_NC_003678
+NC_003679	anchorna	fluke	5812	5826	30.0	+	.	word=;median_score=1.0;Name=A1_NC_003679
+NC_012812	anchorna	fluke	5826	5840	30.0	+	.	word=;median_score=1.0;Name=A1_NC_012812
+NC_018713	anchorna	fluke	5817	5831	30.0	+	.	word=;median_score=1.0;Name=A1_NC_018713
+NC_023176	anchorna	fluke	5890	5904	30.0	+	.	word=;median_score=1.0;Name=A1_NC_023176
+NC_024018	anchorna	fluke	5812	5826	30.0	+	.	word=;median_score=1.0;Name=A1_NC_024018
+NC_025677	anchorna	fluke	6286	6300	30.0	+	.	word=;median_score=1.0;Name=A1_NC_025677
+NC_030653	anchorna	fluke	4639	4653	30.0	+	.	word=;median_score=1.0;Name=A1_NC_030653
+NC_035432	anchorna	fluke	5887	5901	30.0	+	.	word=;median_score=1.0;Name=A1_NC_035432
+NC_038912	anchorna	fluke	5822	5836	30.0	+	.	word=;median_score=1.0;Name=A1_NC_038912
+NC_038964	anchorna	fluke	4762	4776	30.0	+	.	word=;median_score=1.0;Name=A1_NC_038964
+NC_039237	anchorna	fluke	6056	6070	30.0	+	.	word=;median_score=1.0;Name=A1_NC_039237
+NC_076029	anchorna	fluke	5834	5848	30.0	+	.	word=;median_score=1.0;Name=A1_NC_076029
+NC_076032	anchorna	fluke	5828	5842	30.0	+	.	word=;median_score=1.0;Name=A1_NC_076032
+NC_077000	anchorna	fluke	6201	6215	30.0	+	.	word=;median_score=1.0;Name=A1_NC_077000
+NC_077001	anchorna	fluke	6307	6321	30.0	+	.	word=;median_score=1.0;Name=A1_NC_077001
+NC_077015	anchorna	fluke	5060	5074	30.0	+	.	word=;median_score=1.0;Name=A1_NC_077015
+NC_077023	anchorna	fluke	5788	5802	30.0	+	.	word=;median_score=1.0;Name=A1_NC_077023
+NC_077024	anchorna	fluke	5801	5815	30.0	+	.	word=;median_score=1.0;Name=A1_NC_077024
+NC_077026	anchorna	fluke	5408	5422	30.0	+	.	word=;median_score=1.0;Name=A1_NC_077026
+OM030319	anchorna	fluke	5655	5669	30.0	+	.	word=;median_score=1.0;Name=A1_OM030319
+OM030320	anchorna	fluke	5577	5591	30.0	+	.	word=;median_score=1.0;Name=A1_OM030320
+OM817567	anchorna	fluke	5761	5775	30.0	+	.	word=;median_score=1.0;Name=A1_OM817567
+ON024093	anchorna	fluke	5745	5759	30.0	+	.	word=;median_score=1.0;Name=A1_ON024093
+ON024108	anchorna	fluke	1939	1953	30.0	+	.	word=;median_score=1.0;Name=A1_ON024108
+ON165517	anchorna	fluke	5731	5745	30.0	+	.	word=;median_score=1.0;Name=A1_ON165517
+OU592965	anchorna	fluke	5027	5041	30.0	+	.	word=;median_score=1.0;Name=A1_OU592965
+AF099102	anchorna	anchor	6490	6666	354.0	+	.	word=;median_score=1.0;Name=A2
+AY775178	anchorna	fluke	6491	6667	354.0	+	.	word=;median_score=1.0;Name=A2_AY775178
+AY805221	anchorna	fluke	6492	6668	354.0	+	.	word=;median_score=1.0;Name=A2_AY805221
+GU233732	anchorna	fluke	6491	6667	354.0	+	.	word=;median_score=1.0;Name=A2_GU233732
+HG426490	anchorna	fluke	6713	6889	354.0	+	.	word=;median_score=1.0;Name=A2_HG426490
+KC533775	anchorna	fluke	6491	6667	354.0	+	.	word=;median_score=1.0;Name=A2_KC533775
+KC853440	anchorna	fluke	6502	6678	354.0	+	.	word=;median_score=1.0;Name=A2_KC853440
+KP343640	anchorna	fluke	6490	6666	354.0	+	.	word=;median_score=1.0;Name=A2_KP343640
+KT875135	anchorna	fluke	6112	6288	354.0	+	.	word=;median_score=1.0;Name=A2_KT875135
+KT951841	anchorna	fluke	6491	6667	354.0	+	.	word=;median_score=1.0;Name=A2_KT951841
+KX577637	anchorna	fluke	6494	6670	354.0	+	.	word=;median_score=1.0;Name=A2_KX577637
+M96687	anchorna	fluke	6732	6908	354.0	+	.	word=;median_score=1.0;Name=A2_M96687
+MF102261	anchorna	fluke	6486	6662	354.0	+	.	word=;median_score=1.0;Name=A2_MF102261
+MG387218	anchorna	fluke	6490	6666	354.0	+	.	word=;median_score=1.0;Name=A2_MG387218
+MH221025	anchorna	fluke	5354	5530	354.0	+	.	word=;median_score=1.0;Name=A2_MH221025
+MH231152	anchorna	fluke	6468	6644	354.0	+	.	word=;median_score=1.0;Name=A2_MH231152
+MH806436	anchorna	fluke	6843	7019	354.0	+	.	word=;median_score=1.0;Name=A2_MH806436
+MK216749	anchorna	fluke	5696	5872	354.0	+	.	word=;median_score=1.0;Name=A2_MK216749
+MN099165	anchorna	fluke	5687	5863	354.0	+	.	word=;median_score=1.0;Name=A2_MN099165
+MW054939	anchorna	fluke	6468	6644	354.0	+	.	word=;median_score=1.0;Name=A2_MW054939
+MZ664274	anchorna	fluke	6480	6656	354.0	+	.	word=;median_score=1.0;Name=A2_MZ664274
+NC_001461	anchorna	fluke	6773	6949	354.0	+	.	word=;median_score=1.0;Name=A2_NC_001461
+NC_002657	anchorna	fluke	6491	6667	354.0	+	.	word=;median_score=1.0;Name=A2_NC_002657
+NC_003678	anchorna	fluke	6770	6946	354.0	+	.	word=;median_score=1.0;Name=A2_NC_003678
+NC_003679	anchorna	fluke	6481	6657	354.0	+	.	word=;median_score=1.0;Name=A2_NC_003679
+NC_012812	anchorna	fluke	6495	6671	354.0	+	.	word=;median_score=1.0;Name=A2_NC_012812
+NC_018713	anchorna	fluke	6486	6662	354.0	+	.	word=;median_score=1.0;Name=A2_NC_018713
+NC_023176	anchorna	fluke	6559	6735	354.0	+	.	word=;median_score=1.0;Name=A2_NC_023176
+NC_024018	anchorna	fluke	6481	6657	354.0	+	.	word=;median_score=1.0;Name=A2_NC_024018
+NC_025677	anchorna	fluke	6955	7131	354.0	+	.	word=;median_score=1.0;Name=A2_NC_025677
+NC_030653	anchorna	fluke	5311	5487	354.0	+	.	word=;median_score=1.0;Name=A2_NC_030653
+NC_035432	anchorna	fluke	6556	6732	354.0	+	.	word=;median_score=1.0;Name=A2_NC_035432
+NC_038912	anchorna	fluke	6491	6667	354.0	+	.	word=;median_score=1.0;Name=A2_NC_038912
+NC_038964	anchorna	fluke	5434	5610	354.0	+	.	word=;median_score=1.0;Name=A2_NC_038964
+NC_039237	anchorna	fluke	6725	6901	354.0	+	.	word=;median_score=1.0;Name=A2_NC_039237
+NC_076029	anchorna	fluke	6503	6679	354.0	+	.	word=;median_score=1.0;Name=A2_NC_076029
+NC_076032	anchorna	fluke	6497	6673	354.0	+	.	word=;median_score=1.0;Name=A2_NC_076032
+NC_077000	anchorna	fluke	6870	7046	354.0	+	.	word=;median_score=1.0;Name=A2_NC_077000
+NC_077001	anchorna	fluke	6976	7152	354.0	+	.	word=;median_score=1.0;Name=A2_NC_077001
+NC_077015	anchorna	fluke	5732	5908	354.0	+	.	word=;median_score=1.0;Name=A2_NC_077015
+NC_077023	anchorna	fluke	6457	6633	354.0	+	.	word=;median_score=1.0;Name=A2_NC_077023
+NC_077024	anchorna	fluke	6470	6646	354.0	+	.	word=;median_score=1.0;Name=A2_NC_077024
+NC_077026	anchorna	fluke	6077	6253	354.0	+	.	word=;median_score=1.0;Name=A2_NC_077026
+OM030319	anchorna	fluke	6324	6500	354.0	+	.	word=;median_score=1.0;Name=A2_OM030319
+OM030320	anchorna	fluke	6246	6422	354.0	+	.	word=;median_score=1.0;Name=A2_OM030320
+OM817567	anchorna	fluke	6430	6606	354.0	+	.	word=;median_score=1.0;Name=A2_OM817567
+ON024093	anchorna	fluke	6414	6590	354.0	+	.	word=;median_score=1.0;Name=A2_ON024093
+ON024108	anchorna	fluke	6415	6591	354.0	+	.	word=;median_score=1.0;Name=A2_ON024108
+ON165517	anchorna	fluke	6400	6576	354.0	+	.	word=;median_score=1.0;Name=A2_ON165517
+OU592965	anchorna	fluke	5699	5875	354.0	+	.	word=;median_score=1.0;Name=A2_OU592965
+AF099102	anchorna	anchor	8125	8222	196.0	+	.	word=;median_score=1.0;Name=A3
+AY775178	anchorna	fluke	8126	8223	196.0	+	.	word=;median_score=1.0;Name=A3_AY775178
+AY805221	anchorna	fluke	8127	8224	196.0	+	.	word=;median_score=1.0;Name=A3_AY805221
+GU233732	anchorna	fluke	8126	8223	196.0	+	.	word=;median_score=1.0;Name=A3_GU233732
+HG426490	anchorna	fluke	8348	8445	196.0	+	.	word=;median_score=1.0;Name=A3_HG426490
+KC533775	anchorna	fluke	8126	8223	196.0	+	.	word=;median_score=1.0;Name=A3_KC533775
+KC853440	anchorna	fluke	8137	8234	196.0	+	.	word=;median_score=1.0;Name=A3_KC853440
+KP343640	anchorna	fluke	8125	8222	196.0	+	.	word=;median_score=1.0;Name=A3_KP343640
+KT875135	anchorna	fluke	7747	7844	196.0	+	.	word=;median_score=1.0;Name=A3_KT875135
+KT951841	anchorna	fluke	8126	8223	196.0	+	.	word=;median_score=1.0;Name=A3_KT951841
+KX577637	anchorna	fluke	8129	8226	196.0	+	.	word=;median_score=1.0;Name=A3_KX577637
+M96687	anchorna	fluke	8367	8464	196.0	+	.	word=;median_score=1.0;Name=A3_M96687
+MF102261	anchorna	fluke	8121	8218	196.0	+	.	word=;median_score=1.0;Name=A3_MF102261
+MG387218	anchorna	fluke	8125	8222	196.0	+	.	word=;median_score=1.0;Name=A3_MG387218
+MH221025	anchorna	fluke	6986	7083	196.0	+	.	word=;median_score=1.0;Name=A3_MH221025
+MH231152	anchorna	fluke	8103	8200	196.0	+	.	word=;median_score=1.0;Name=A3_MH231152
+MH806436	anchorna	fluke	8478	8575	196.0	+	.	word=;median_score=1.0;Name=A3_MH806436
+MK216749	anchorna	fluke	7328	7425	196.0	+	.	word=;median_score=1.0;Name=A3_MK216749
+MN099165	anchorna	fluke	7319	7416	196.0	+	.	word=;median_score=1.0;Name=A3_MN099165
+MW054939	anchorna	fluke	8103	8200	196.0	+	.	word=;median_score=1.0;Name=A3_MW054939
+MZ664274	anchorna	fluke	8115	8212	196.0	+	.	word=;median_score=1.0;Name=A3_MZ664274
+NC_001461	anchorna	fluke	8408	8505	196.0	+	.	word=;median_score=1.0;Name=A3_NC_001461
+NC_002657	anchorna	fluke	8126	8223	196.0	+	.	word=;median_score=1.0;Name=A3_NC_002657
+NC_003678	anchorna	fluke	8405	8502	196.0	+	.	word=;median_score=1.0;Name=A3_NC_003678
+NC_003679	anchorna	fluke	8116	8213	196.0	+	.	word=;median_score=1.0;Name=A3_NC_003679
+NC_012812	anchorna	fluke	8130	8227	196.0	+	.	word=;median_score=1.0;Name=A3_NC_012812
+NC_018713	anchorna	fluke	8121	8218	196.0	+	.	word=;median_score=1.0;Name=A3_NC_018713
+NC_023176	anchorna	fluke	8191	8288	196.0	+	.	word=;median_score=1.0;Name=A3_NC_023176
+NC_024018	anchorna	fluke	8110	8207	196.0	+	.	word=;median_score=1.0;Name=A3_NC_024018
+NC_025677	anchorna	fluke	8575	8672	196.0	+	.	word=;median_score=1.0;Name=A3_NC_025677
+NC_030653	anchorna	fluke	6943	7040	196.0	+	.	word=;median_score=1.0;Name=A3_NC_030653
+NC_035432	anchorna	fluke	8188	8285	196.0	+	.	word=;median_score=1.0;Name=A3_NC_035432
+NC_038912	anchorna	fluke	8126	8223	196.0	+	.	word=;median_score=1.0;Name=A3_NC_038912
+NC_038964	anchorna	fluke	7066	7163	196.0	+	.	word=;median_score=1.0;Name=A3_NC_038964
+NC_039237	anchorna	fluke	8360	8457	196.0	+	.	word=;median_score=1.0;Name=A3_NC_039237
+NC_076029	anchorna	fluke	8138	8235	196.0	+	.	word=;median_score=1.0;Name=A3_NC_076029
+NC_076032	anchorna	fluke	8132	8229	196.0	+	.	word=;median_score=1.0;Name=A3_NC_076032
+NC_077000	anchorna	fluke	8490	8587	196.0	+	.	word=;median_score=1.0;Name=A3_NC_077000
+NC_077001	anchorna	fluke	8596	8693	196.0	+	.	word=;median_score=1.0;Name=A3_NC_077001
+NC_077015	anchorna	fluke	7370	7467	196.0	+	.	word=;median_score=1.0;Name=A3_NC_077015
+NC_077023	anchorna	fluke	8092	8189	196.0	+	.	word=;median_score=1.0;Name=A3_NC_077023
+NC_077024	anchorna	fluke	8102	8199	196.0	+	.	word=;median_score=1.0;Name=A3_NC_077024
+NC_077026	anchorna	fluke	7709	7806	196.0	+	.	word=;median_score=1.0;Name=A3_NC_077026
+OM030319	anchorna	fluke	7947	8044	196.0	+	.	word=;median_score=1.0;Name=A3_OM030319
+OM030320	anchorna	fluke	7878	7975	196.0	+	.	word=;median_score=1.0;Name=A3_OM030320
+OM817567	anchorna	fluke	8065	8162	196.0	+	.	word=;median_score=1.0;Name=A3_OM817567
+ON024093	anchorna	fluke	8046	8143	196.0	+	.	word=;median_score=1.0;Name=A3_ON024093
+ON024108	anchorna	fluke	8050	8147	196.0	+	.	word=;median_score=1.0;Name=A3_ON024108
+ON165517	anchorna	fluke	8035	8132	196.0	+	.	word=;median_score=1.0;Name=A3_ON165517
+OU592965	anchorna	fluke	7337	7434	196.0	+	.	word=;median_score=1.0;Name=A3_OU592965
+AF099102	anchorna	anchor	10677	10714	76.0	+	.	word=;median_score=1.0;Name=A4
+AY775178	anchorna	fluke	10678	10715	76.0	+	.	word=;median_score=1.0;Name=A4_AY775178
+AY805221	anchorna	fluke	10679	10716	76.0	+	.	word=;median_score=1.0;Name=A4_AY805221
+GU233732	anchorna	fluke	10678	10715	76.0	+	.	word=;median_score=1.0;Name=A4_GU233732
+HG426490	anchorna	fluke	10900	10937	76.0	+	.	word=;median_score=1.0;Name=A4_HG426490
+KC533775	anchorna	fluke	10678	10715	76.0	+	.	word=;median_score=1.0;Name=A4_KC533775
+KC853440	anchorna	fluke	10686	10723	76.0	+	.	word=;median_score=1.0;Name=A4_KC853440
+KP343640	anchorna	fluke	10677	10714	76.0	+	.	word=;median_score=1.0;Name=A4_KP343640
+KT875135	anchorna	fluke	10299	10336	76.0	+	.	word=;median_score=1.0;Name=A4_KT875135
+KT951841	anchorna	fluke	10675	10712	76.0	+	.	word=;median_score=1.0;Name=A4_KT951841
+KX577637	anchorna	fluke	10678	10715	76.0	+	.	word=;median_score=1.0;Name=A4_KX577637
+M96687	anchorna	fluke	10916	10953	76.0	+	.	word=;median_score=1.0;Name=A4_M96687
+MF102261	anchorna	fluke	10673	10710	76.0	+	.	word=;median_score=1.0;Name=A4_MF102261
+MG387218	anchorna	fluke	10677	10714	76.0	+	.	word=;median_score=1.0;Name=A4_MG387218
+MH221025	anchorna	fluke	9547	9584	76.0	+	.	word=;median_score=1.0;Name=A4_MH221025
+MH231152	anchorna	fluke	10655	10692	76.0	+	.	word=;median_score=1.0;Name=A4_MH231152
+MH806436	anchorna	fluke	11030	11067	76.0	+	.	word=;median_score=1.0;Name=A4_MH806436
+MK216749	anchorna	fluke	9889	9926	76.0	+	.	word=;median_score=1.0;Name=A4_MK216749
+MN099165	anchorna	fluke	9880	9917	76.0	+	.	word=;median_score=1.0;Name=A4_MN099165
+MW054939	anchorna	fluke	10652	10689	76.0	+	.	word=;median_score=1.0;Name=A4_MW054939
+MZ664274	anchorna	fluke	10667	10704	76.0	+	.	word=;median_score=1.0;Name=A4_MZ664274
+NC_001461	anchorna	fluke	10957	10994	76.0	+	.	word=;median_score=1.0;Name=A4_NC_001461
+NC_002657	anchorna	fluke	10678	10715	76.0	+	.	word=;median_score=1.0;Name=A4_NC_002657
+NC_003678	anchorna	fluke	10957	10994	76.0	+	.	word=;median_score=1.0;Name=A4_NC_003678
+NC_003679	anchorna	fluke	10668	10705	76.0	+	.	word=;median_score=1.0;Name=A4_NC_003679
+NC_012812	anchorna	fluke	10682	10719	76.0	+	.	word=;median_score=1.0;Name=A4_NC_012812
+NC_018713	anchorna	fluke	10673	10710	76.0	+	.	word=;median_score=1.0;Name=A4_NC_018713
+NC_023176	anchorna	fluke	10761	10798	76.0	+	.	word=;median_score=1.0;Name=A4_NC_023176
+NC_024018	anchorna	fluke	10674	10711	76.0	+	.	word=;median_score=1.0;Name=A4_NC_024018
+NC_025677	anchorna	fluke	11097	11134	76.0	+	.	word=;median_score=1.0;Name=A4_NC_025677
+NC_030653	anchorna	fluke	9504	9541	76.0	+	.	word=;median_score=1.0;Name=A4_NC_030653
+NC_035432	anchorna	fluke	10755	10792	76.0	+	.	word=;median_score=1.0;Name=A4_NC_035432
+NC_038912	anchorna	fluke	10678	10715	76.0	+	.	word=;median_score=1.0;Name=A4_NC_038912
+NC_038964	anchorna	fluke	9627	9664	76.0	+	.	word=;median_score=1.0;Name=A4_NC_038964
+NC_039237	anchorna	fluke	10912	10949	76.0	+	.	word=;median_score=1.0;Name=A4_NC_039237
+NC_076029	anchorna	fluke	10687	10724	76.0	+	.	word=;median_score=1.0;Name=A4_NC_076029
+NC_076032	anchorna	fluke	10684	10721	76.0	+	.	word=;median_score=1.0;Name=A4_NC_076032
+NC_077000	anchorna	fluke	10997	11034	76.0	+	.	word=;median_score=1.0;Name=A4_NC_077000
+NC_077001	anchorna	fluke	11118	11155	76.0	+	.	word=;median_score=1.0;Name=A4_NC_077001
+NC_077015	anchorna	fluke	9979	10016	76.0	+	.	word=;median_score=1.0;Name=A4_NC_077015
+NC_077023	anchorna	fluke	10644	10681	76.0	+	.	word=;median_score=1.0;Name=A4_NC_077023
+NC_077024	anchorna	fluke	10648	10685	76.0	+	.	word=;median_score=1.0;Name=A4_NC_077024
+NC_077026	anchorna	fluke	10267	10304	76.0	+	.	word=;median_score=1.0;Name=A4_NC_077026
+OM030319	anchorna	fluke	10490	10527	76.0	+	.	word=;median_score=1.0;Name=A4_OM030319
+OM030320	anchorna	fluke	10448	10485	76.0	+	.	word=;median_score=1.0;Name=A4_OM030320
+OM817567	anchorna	fluke	10617	10654	76.0	+	.	word=;median_score=1.0;Name=A4_OM817567
+ON024093	anchorna	fluke	10592	10629	76.0	+	.	word=;median_score=1.0;Name=A4_ON024093
+ON024108	anchorna	fluke	10596	10633	76.0	+	.	word=;median_score=1.0;Name=A4_ON024108
+ON165517	anchorna	fluke	10584	10621	76.0	+	.	word=;median_score=1.0;Name=A4_ON165517
+OU592965	anchorna	fluke	9943	9980	76.0	+	.	word=;median_score=1.0;Name=A4_OU592965
+AF099102	anchorna	anchor	10756	11178	846.0	+	.	word=;median_score=1.0;Name=A5
+AY775178	anchorna	fluke	10757	11179	846.0	+	.	word=;median_score=1.0;Name=A5_AY775178
+AY805221	anchorna	fluke	10758	11180	846.0	+	.	word=;median_score=1.0;Name=A5_AY805221
+GU233732	anchorna	fluke	10757	11179	846.0	+	.	word=;median_score=1.0;Name=A5_GU233732
+HG426490	anchorna	fluke	10979	11401	846.0	+	.	word=;median_score=1.0;Name=A5_HG426490
+KC533775	anchorna	fluke	10757	11179	846.0	+	.	word=;median_score=1.0;Name=A5_KC533775
+KC853440	anchorna	fluke	10765	11187	846.0	+	.	word=;median_score=1.0;Name=A5_KC853440
+KP343640	anchorna	fluke	10756	11178	846.0	+	.	word=;median_score=1.0;Name=A5_KP343640
+KT875135	anchorna	fluke	10378	10800	846.0	+	.	word=;median_score=1.0;Name=A5_KT875135
+KT951841	anchorna	fluke	10754	11176	846.0	+	.	word=;median_score=1.0;Name=A5_KT951841
+KX577637	anchorna	fluke	10757	11179	846.0	+	.	word=;median_score=1.0;Name=A5_KX577637
+M96687	anchorna	fluke	10995	11417	846.0	+	.	word=;median_score=1.0;Name=A5_M96687
+MF102261	anchorna	fluke	10752	11174	846.0	+	.	word=;median_score=1.0;Name=A5_MF102261
+MG387218	anchorna	fluke	10756	11178	846.0	+	.	word=;median_score=1.0;Name=A5_MG387218
+MH221025	anchorna	fluke	9626	10048	846.0	+	.	word=;median_score=1.0;Name=A5_MH221025
+MH231152	anchorna	fluke	10734	11156	846.0	+	.	word=;median_score=1.0;Name=A5_MH231152
+MH806436	anchorna	fluke	11109	11531	846.0	+	.	word=;median_score=1.0;Name=A5_MH806436
+MK216749	anchorna	fluke	9968	10390	846.0	+	.	word=;median_score=1.0;Name=A5_MK216749
+MN099165	anchorna	fluke	9959	10381	846.0	+	.	word=;median_score=1.0;Name=A5_MN099165
+MW054939	anchorna	fluke	10731	11153	846.0	+	.	word=;median_score=1.0;Name=A5_MW054939
+MZ664274	anchorna	fluke	10746	11168	846.0	+	.	word=;median_score=1.0;Name=A5_MZ664274
+NC_001461	anchorna	fluke	11036	11458	846.0	+	.	word=;median_score=1.0;Name=A5_NC_001461
+NC_002657	anchorna	fluke	10757	11179	846.0	+	.	word=;median_score=1.0;Name=A5_NC_002657
+NC_003678	anchorna	fluke	11036	11458	846.0	+	.	word=;median_score=1.0;Name=A5_NC_003678
+NC_003679	anchorna	fluke	10747	11169	846.0	+	.	word=;median_score=1.0;Name=A5_NC_003679
+NC_012812	anchorna	fluke	10761	11183	846.0	+	.	word=;median_score=1.0;Name=A5_NC_012812
+NC_018713	anchorna	fluke	10752	11174	846.0	+	.	word=;median_score=1.0;Name=A5_NC_018713
+NC_023176	anchorna	fluke	10840	11262	846.0	+	.	word=;median_score=1.0;Name=A5_NC_023176
+NC_024018	anchorna	fluke	10753	11175	846.0	+	.	word=;median_score=1.0;Name=A5_NC_024018
+NC_025677	anchorna	fluke	11176	11598	846.0	+	.	word=;median_score=1.0;Name=A5_NC_025677
+NC_030653	anchorna	fluke	9583	10005	846.0	+	.	word=;median_score=1.0;Name=A5_NC_030653
+NC_035432	anchorna	fluke	10834	11256	846.0	+	.	word=;median_score=1.0;Name=A5_NC_035432
+NC_038912	anchorna	fluke	10757	11179	846.0	+	.	word=;median_score=1.0;Name=A5_NC_038912
+NC_038964	anchorna	fluke	9706	10128	846.0	+	.	word=;median_score=1.0;Name=A5_NC_038964
+NC_039237	anchorna	fluke	10991	11413	846.0	+	.	word=;median_score=1.0;Name=A5_NC_039237
+NC_076029	anchorna	fluke	10766	11188	846.0	+	.	word=;median_score=1.0;Name=A5_NC_076029
+NC_076032	anchorna	fluke	10763	11185	846.0	+	.	word=;median_score=1.0;Name=A5_NC_076032
+NC_077000	anchorna	fluke	11073	11495	846.0	+	.	word=;median_score=1.0;Name=A5_NC_077000
+NC_077001	anchorna	fluke	11197	11619	846.0	+	.	word=;median_score=1.0;Name=A5_NC_077001
+NC_077015	anchorna	fluke	10058	10480	846.0	+	.	word=;median_score=1.0;Name=A5_NC_077015
+NC_077023	anchorna	fluke	10723	11145	846.0	+	.	word=;median_score=1.0;Name=A5_NC_077023
+NC_077024	anchorna	fluke	10727	11149	846.0	+	.	word=;median_score=1.0;Name=A5_NC_077024
+NC_077026	anchorna	fluke	10346	10768	846.0	+	.	word=;median_score=1.0;Name=A5_NC_077026
+OM030319	anchorna	fluke	10569	10991	846.0	+	.	word=;median_score=1.0;Name=A5_OM030319
+OM030320	anchorna	fluke	10527	10949	846.0	+	.	word=;median_score=1.0;Name=A5_OM030320
+OM817567	anchorna	fluke	10696	11118	846.0	+	.	word=;median_score=1.0;Name=A5_OM817567
+ON024093	anchorna	fluke	10671	11093	846.0	+	.	word=;median_score=1.0;Name=A5_ON024093
+ON024108	anchorna	fluke	10675	11097	846.0	+	.	word=;median_score=1.0;Name=A5_ON024108
+ON165517	anchorna	fluke	10663	11085	846.0	+	.	word=;median_score=1.0;Name=A5_ON165517
+OU592965	anchorna	fluke	10022	10444	846.0	+	.	word=;median_score=1.0;Name=A5_OU592965
+AF099102	anchorna	anchor	11332	11346	30.0	+	.	word=;median_score=1.0;Name=A6
+AY775178	anchorna	fluke	11333	11347	30.0	+	.	word=;median_score=1.0;Name=A6_AY775178
+AY805221	anchorna	fluke	11334	11348	30.0	+	.	word=;median_score=1.0;Name=A6_AY805221
+GU233732	anchorna	fluke	11333	11347	30.0	+	.	word=;median_score=1.0;Name=A6_GU233732
+HG426490	anchorna	fluke	11555	11569	30.0	+	.	word=;median_score=1.0;Name=A6_HG426490
+KC533775	anchorna	fluke	11333	11347	30.0	+	.	word=;median_score=1.0;Name=A6_KC533775
+KC853440	anchorna	fluke	11341	11355	30.0	+	.	word=;median_score=1.0;Name=A6_KC853440
+KP343640	anchorna	fluke	11332	11346	30.0	+	.	word=;median_score=1.0;Name=A6_KP343640
+KT875135	anchorna	fluke	10954	10968	30.0	+	.	word=;median_score=1.0;Name=A6_KT875135
+KT951841	anchorna	fluke	11330	11344	30.0	+	.	word=;median_score=1.0;Name=A6_KT951841
+KX577637	anchorna	fluke	11333	11347	30.0	+	.	word=;median_score=1.0;Name=A6_KX577637
+M96687	anchorna	fluke	11571	11585	30.0	+	.	word=;median_score=1.0;Name=A6_M96687
+MF102261	anchorna	fluke	11328	11342	30.0	+	.	word=;median_score=1.0;Name=A6_MF102261
+MG387218	anchorna	fluke	11332	11346	30.0	+	.	word=;median_score=1.0;Name=A6_MG387218
+MH221025	anchorna	fluke	10202	10216	30.0	+	.	word=;median_score=1.0;Name=A6_MH221025
+MH231152	anchorna	fluke	11310	11324	30.0	+	.	word=;median_score=1.0;Name=A6_MH231152
+MH806436	anchorna	fluke	11685	11699	30.0	+	.	word=;median_score=1.0;Name=A6_MH806436
+MK216749	anchorna	fluke	10544	10558	30.0	+	.	word=;median_score=1.0;Name=A6_MK216749
+MN099165	anchorna	fluke	10535	10549	30.0	+	.	word=;median_score=1.0;Name=A6_MN099165
+MW054939	anchorna	fluke	11307	11321	30.0	+	.	word=;median_score=1.0;Name=A6_MW054939
+MZ664274	anchorna	fluke	11322	11336	30.0	+	.	word=;median_score=1.0;Name=A6_MZ664274
+NC_001461	anchorna	fluke	11612	11626	30.0	+	.	word=;median_score=1.0;Name=A6_NC_001461
+NC_002657	anchorna	fluke	11333	11347	30.0	+	.	word=;median_score=1.0;Name=A6_NC_002657
+NC_003678	anchorna	fluke	11612	11626	30.0	+	.	word=;median_score=1.0;Name=A6_NC_003678
+NC_003679	anchorna	fluke	11323	11337	30.0	+	.	word=;median_score=1.0;Name=A6_NC_003679
+NC_012812	anchorna	fluke	11337	11351	30.0	+	.	word=;median_score=1.0;Name=A6_NC_012812
+NC_018713	anchorna	fluke	11328	11342	30.0	+	.	word=;median_score=1.0;Name=A6_NC_018713
+NC_023176	anchorna	fluke	11416	11430	30.0	+	.	word=;median_score=1.0;Name=A6_NC_023176
+NC_024018	anchorna	fluke	11329	11343	30.0	+	.	word=;median_score=1.0;Name=A6_NC_024018
+NC_025677	anchorna	fluke	11752	11766	30.0	+	.	word=;median_score=1.0;Name=A6_NC_025677
+NC_030653	anchorna	fluke	10159	10173	30.0	+	.	word=;median_score=1.0;Name=A6_NC_030653
+NC_035432	anchorna	fluke	11410	11424	30.0	+	.	word=;median_score=1.0;Name=A6_NC_035432
+NC_038912	anchorna	fluke	11333	11347	30.0	+	.	word=;median_score=1.0;Name=A6_NC_038912
+NC_038964	anchorna	fluke	10282	10296	30.0	+	.	word=;median_score=1.0;Name=A6_NC_038964
+NC_039237	anchorna	fluke	11567	11581	30.0	+	.	word=;median_score=1.0;Name=A6_NC_039237
+NC_076029	anchorna	fluke	11342	11356	30.0	+	.	word=;median_score=1.0;Name=A6_NC_076029
+NC_076032	anchorna	fluke	11339	11353	30.0	+	.	word=;median_score=1.0;Name=A6_NC_076032
+NC_077000	anchorna	fluke	11649	11663	30.0	+	.	word=;median_score=1.0;Name=A6_NC_077000
+NC_077001	anchorna	fluke	11773	11787	30.0	+	.	word=;median_score=1.0;Name=A6_NC_077001
+NC_077015	anchorna	fluke	10634	10648	30.0	+	.	word=;median_score=1.0;Name=A6_NC_077015
+NC_077023	anchorna	fluke	11299	11313	30.0	+	.	word=;median_score=1.0;Name=A6_NC_077023
+NC_077024	anchorna	fluke	11303	11317	30.0	+	.	word=;median_score=1.0;Name=A6_NC_077024
+NC_077026	anchorna	fluke	10922	10936	30.0	+	.	word=;median_score=1.0;Name=A6_NC_077026
+OM030319	anchorna	fluke	11145	11159	30.0	+	.	word=;median_score=1.0;Name=A6_OM030319
+OM030320	anchorna	fluke	11103	11117	30.0	+	.	word=;median_score=1.0;Name=A6_OM030320
+OM817567	anchorna	fluke	11272	11286	30.0	+	.	word=;median_score=1.0;Name=A6_OM817567
+ON024093	anchorna	fluke	11247	11261	30.0	+	.	word=;median_score=1.0;Name=A6_ON024093
+ON024108	anchorna	fluke	11251	11265	30.0	+	.	word=;median_score=1.0;Name=A6_ON024108
+ON165517	anchorna	fluke	11239	11253	30.0	+	.	word=;median_score=1.0;Name=A6_ON165517
+OU592965	anchorna	fluke	10598	10612	30.0	+	.	word=;median_score=1.0;Name=A6_OU592965

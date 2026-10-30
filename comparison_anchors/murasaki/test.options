@@ -1,0 +1,33 @@
+Verbosity level is: 0
+Writing to: .//test
+Pattern is: 110110110110110
+Max usable hash bits: 27
+Hit filter is: 0
+Hash table type is: EcoHash
+Hashing every: 1 base
+Histogram detail is: 0
+Hashing function is: 3
+Collision profiling is: disabled
+Repeats are: unmasked
+Mergefilter is at: 100
+Random seed: 1792584258 (automatic)
+Skip: reverse 
+Bitscore output: on
+Leave status records: no
+Join neighbors is: off
+Target memory is: 1.993 TB
+Retain members is: true
+Store repeatmap? yes
+Reverse complement data is generated on the fly
+Rifts allowed: 0
+Fuzzy Extension: yes
+Score by minimum pair: yes
+Gapped anchors: no
+Large sequence support is: enabled => seqpos is 8 bytes
+Murasaki version 1.68.6 (LARGESEQ)
+Platform information:
+Wordsize: 64 bits
+sizeof(word): 8 bytes
+Total Memory: 2.214 TB
+Available Memory: 2.150 TB (97.10%)
+
