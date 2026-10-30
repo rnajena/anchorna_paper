@@ -128,7 +128,7 @@ python s05_plots.py  # create plots for figures 4, 5, 6
 
 ### Install and run MS4
 
-MS4 beta-0.2 can be downloaded [here](https://www.math-evry.cnrs.fr/logiciels/ms4), a copy is located in the `tools/mf4` folder. In this folder compile code with `make`. Because it is written in Python2 we need a dedicated conda environment to run this tool. We start in the repository root folder.
+MS4 beta-0.2 can be downloaded [here](https://www.math-evry.cnrs.fr/logiciels/ms4), a copy it to the `tools/mf4` folder. In this folder compile code with `make`. Because it is written in Python2 we need a dedicated conda environment to run this tool. We start in the repository root folder.
 
 ```
 conda create -n ms4 "python=2"
