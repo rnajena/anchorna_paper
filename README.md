@@ -10,14 +10,15 @@ doi:[10.1101/2025.01.30.635689](https://doi.org/10.1101/2025.01.30.635689)
 
 It also includes all the data needed to run the scripts, as well as the expected output files including figures.
 
-### Create a dedicated conda environment
+## Create a dedicated conda environment
 
 We report the versions of the relevant packages.
 
 ```sh
-conda create -n anchorna_paper -c conda-forge -c bioconda python==3.12 mafft==7.526 locarna=2.0
+conda create -n anchorna_paper -c conda-forge -c bioconda python=3.12 mafft=7.526 locarna=2.0 matplotlib=3 scipy=1 git meme=5.5 pip
 conda activate anchorna_paper
-pip install rnajena-sugar==0.8 anchorna==2.0
+pip install rnajena-sugar==1.2.2 anchorna==2.0.1 matpotlib-venn==1.1.2
+pip install git+https://github.com/phatcher/UpSetPlot.git@inclusive  # commit 4fe55b0
 ```
 
 After creating the environment, you can run all of the sections below, or just some of them.
@@ -28,7 +29,7 @@ Files in this repository will be recreated, except for these files:
 * the IDs of the sequences shown in figure 5 `ids_24.txt`,
 * and the Python and BASH scripts.
 
-### Search anchors
+## Search anchors with AnchoRNA
 
 First, we copy the pesti data file with 55 representative sequences,
 it is included in the AnchoRNA distribution.
@@ -59,6 +60,8 @@ Create the screen shots for figure 3:
 anchorna view anchors.gff --align A1
 anchorna cutout anchors.gff start "A1+6" | anchorna view anchors.gff --mode nt --align A0 --fname -
 ```
+
+## Alignment comparison
 
 ### Create MAFFT alignments with version v7.526
 
@@ -117,5 +120,77 @@ Be sure, that you are in the root directory.
 ```sh
 python 03_postprocess_alis.py  # clean up Dialign files, postprocess LocARNA files
 python 04_alignment_scores.py  # calculate scores for table 1
-python 05_plots.py  # create plots for figures 4, 5, 6
+python s05_plots.py  # create plots for figures 4, 5, 6
+```
+
+
+## Anchor comparison
+
+### Install and run MS4
+
+MS4 beta-0.2 can be downloaded [here](https://www.math-evry.cnrs.fr/logiciels/ms4), a copy is located in the `tools/mf4` folder. In this folder compile code with `make`. Because it is written in Python2 we need a dedicated conda environment to run this tool. We start in the repository root folder.
+
+```
+conda create -n ms4 "python=2"
+conda activate ms4
+cd comparison_anchors/ms4
+time python ../../tools/ms4/python/t_MS4.py ../../comparison/pesti.fasta -n "2:60" -s 50 -o a
+cd ../..
+```
+
+### Install and run Murasaki
+
+Murasaki binaries are distributed via Debian/Ubuntu. Here we install version 1.68.6 in user-space and run it.
+For murasaki, we need to convert the multi-fasta into multiple fasta files with `awk`.
+
+```
+cd tools
+apt download murasaki murasaki-common murasaki-mpi
+for f in ./*.deb; do     dpkg-deb -x "$f" murasaki; done
+cd ../comparison_anchors/murasaki
+mkdir -p fastas
+awk '/^>/{if(out)close(out); name=substr($0,2); sub(/[[:space:]].*/,"",name); out="fastas/"name".fasta"} out{print > out}' ../../comparison/pesti.fasta
+time ../../tools/murasaki/usr/bin/murasaki -p 110110110110110 fastas/*.fasta -R -s 42 -d ./
+cd ../..
+```
+
+### Run MEME 5.5.9
+
+The MEME tool can be run with
+
+```
+conda activate anchorna_paper
+cd comparison_anchors/meme/
+time meme ../../comparison/pesti.fasta -oc . -dna -mod oops -nmotifs 100 -minw 6 -maxw 50 -markov_order 0 -revcomp-revcomp
+cd ../..
+```
+
+### Run MEME 5.5.9 on proteins
+
+```
+cd comparison
+sugar translate pesti.gff --cds -o pesti.faa
+cd ../comparison_anchors/meme_aa
+time meme ../../comparison/pesti.faa -oc . -protein -mod oops -nmotifs 100 -minw 5 -maxw 20 -markov_order 0
+cd ../..
+```
+
+
+### Analyze different anchor sets
+
+```
+python 06_compare_anchors.py
+# to actually inspect the different anchor sets on top of the hand-curated alignment
+cd comparison
+## view all anchors
+anchorna view anchors50.gff --fname pesti_hand_curated.stk --mode nt
+anchorna view ../comparison_anchors/ms4/pesti_ms4_anchors.gff --fname pesti_hand_curated.stk
+anchorna view ../comparison_anchors/murasaki/test.gff --fname pesti_hand_curated.stk
+anchorna view ../comparison_anchors/meme/meme.gff --fname pesti_hand_curated.stk
+## view only aligned anchors
+anchorna view ../comparison_anchors/anchors_AnchoRNA.gff --fname pesti_hand_curated.stk
+anchorna view ../comparison_anchors/anchors_MS4.gff --fname pesti_hand_curated.stk
+anchorna view ../comparison_anchors/anchors_Murasaki.gff --fname pesti_hand_curated.stk
+anchorna view ../comparison_anchors/anchors_MEME.gff --fname pesti_hand_curated.stk
+anchorna view ../comparison_anchors/anchors_MEME_aa.gff --fname pesti_hand_curated.stk
 ```
