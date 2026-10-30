@@ -116,17 +116,20 @@ def four_anchors_plot():
     cseqs.plot_alignment(extent=[0, 50, -20, -2], color=None, **kw)
     tseqs = cseqs.copy().translate(complete=True, update_fts=True)
     tseqs.str.replace('X', ' ')
-    tseqs.plot_alignment(extent=[0, 50, 0, 18], color='flower', **kw)
+    tseqs.plot_alignment(extent=[0, 50, 0, 18], color='flower', aspect=None, **kw)
     ax.set_ylim(-20.5, 18.5)
+    ax.set_xlim(0, 50)
     akw = dict(size='xx-large', annotation_clip=False)
     ax.annotate('A', (-0.8, 17.2), **akw)
     ax.annotate('B', (-0.8, -2.8), **akw)
     fig.savefig(FIGPATH + 'anchor_example.pdf', bbox_inches='tight')
 
 
-def genome_anchors_plot():
+def genome_anchors_plot(anchor_fname=PATH + 'anchors.gff||8', output_fname=FIGPATH + 'genome_anchors.png', color=False, **kw):
     id_ = 'NC_076029'
-    fts = read_anchors(PATH + 'anchors.gff').convert2fts(mode='nt')
+    anchors = read_anchors(anchor_fname)
+    mode = 'aa' if anchors.no_cds else 'nt'
+    fts = anchors.convert2fts(mode=mode)
     fts = fts.select(seqid_eq=id_)
     seqs = read(PATH + 'pesti.gff').select(id_eq=id_)
     seqs.fts = fts
@@ -134,14 +137,15 @@ def genome_anchors_plot():
         if len(ft) < 30:
             ft.loc.stop = ft.loc.start + 30
     fts_color = defaultdict(lambda: (0, 0, 0))
-    for i in range(7):
-        fts_color[f'A1{i+1}'] = f'C{i}'
+    if color:
+        for i in range(7):
+            fts_color[f'A1{i}'] = f'C{i}'
     seqs.plot_alignment(fts=True, color='white', alpha=0, fts_alpha=1, fts_colorby=_anchors_groupby, fts_color=fts_color,
-                        xticks=False, figsize=(5,0.3), fname=FIGPATH + 'genome_anchors.png', transparent=True)
+                        xticks=False, figsize=(5,0.3), fname=output_fname, transparent=True, label=False, **kw)
 
 
 def genome_anchor_distances():
-    anchors = read_anchors(PATH + 'anchors.gff')
+    anchors = read_anchors(PATH + 'anchors.gff||8')
     a0 = anchors[0].todict_seqid()
     min_ = 100
     max_ = 0
@@ -155,15 +159,16 @@ def genome_anchor_distances():
     print('min distance between two anchors:', min_)
     print('max distance between two anchors:', max_)
 
-    a13 = anchors[13].todict_seqid()
-    a15 = anchors[15].todict_seqid()
+    a13 = anchors[12].todict_seqid()
+    a15 = anchors[14].todict_seqid()
     difs = [(a15[id_].start - a13[id_].stop) for id_ in a13]
     print('min distance between anchors A13 and A15:', min(difs))
     print('max distance between anchors A13 and A15:', max(difs))
 
 
-subalignment_plot()
-full_alignment_plot()
-four_anchors_plot()
-genome_anchors_plot()
-genome_anchor_distances()
+if __name__ == '__main__':
+    subalignment_plot()
+    full_alignment_plot()
+    four_anchors_plot()
+    genome_anchors_plot()
+    genome_anchor_distances()

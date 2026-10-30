@@ -3,6 +3,7 @@
 from sugar import read, BioBasket
 from sugar.data import submat
 from statistics import mean, median
+from spscore import spscore
 
 
 def gap_scores(seqs, addgap=-11, extentgap=-1):
@@ -72,11 +73,17 @@ for i, fname in enumerate(FNAMES):
     nscore = score / median_len
     tool = fname.split('_')[-1].split('.')[0]
     rlen = round(len(seqs[0]), -2)
-    print(f'{tool:>20} {nscore:.2f}/{rlen}')
+    rlen = len(seqs[0])
+    print(f'{tool:>20} {nscore:.3f}/{rlen}')
     # print('           score: {:.2e}'.format(mean(score_matrix.values())))
     # print('normalized score: {:.2e}'.format(mean(score_matrix.values()) / median_len))
     # print('             len:', len(seqs[0]))
 print('median len:', median_len)
+
+aliref = read(FNAMES[0]).select(id_ne='OM030319')
+for fname in FNAMES:
+    ali = read(fname).select(id_ne='OM030319')
+    print(fname, f'SP score: {spscore(ali, aliref):.3f}')
 
 
 # For reference, the NUC score:
